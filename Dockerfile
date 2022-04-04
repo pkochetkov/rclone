@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.14
 
 LABEL "com.github.actions.name"="Github Action for rclone"
 LABEL "com.github.actions.description"="Wraps the rclone CLI to be used in Github Actions"
